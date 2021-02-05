@@ -18,7 +18,7 @@ class Main{
         this.galleryListener()
     }
 
-    static setInfo() {
+    setInfo() {
         const currDate = new Date(),
             years = currDate.getFullYear() - 2015;
         
